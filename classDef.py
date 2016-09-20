@@ -1,10 +1,12 @@
 class Song(object):
     def __init__(self, lyrics):
         self.lyrics = lyrics
+        self.justanum = len(self.lyrics)
 
     def sing_me_a_song(self):
         for line in self.lyrics:
             print line
+            print "This poem has %d lines" % self.justanum
         
 happy_bday = Song(["Happy birthday to you",
                            "I don't want to get sued",
