@@ -60,33 +60,38 @@ if not state:
     # get a city with a default value
 city = cities.get('TX', 'Does Not Exist')
 print "The city for the state 'TX' is: %s" % city
-- - - - - - - - - - 
-NY State has:  New York
-OR State has:  Portland
-- - - - - - - - - - 
-Michigan's abbreviation is:  MI
-Florida's abbreviation is:  FL
-- - - - - - - - - - 
-Michigan has:  Detroit
-Florida has:  Jacksonville
-- - - - - - - - - - 
-California is abbreviated CA
-Michigan is abbreviated MI
-New York is abbreviated NY
-Florida is abbreviated FL
-Oregon is abbreviated OR
-- - - - - - - - - - 
-FL has the city Jacksonville
-CA has the city San Francisco
-MI has the city Detroit
-OR has the city Portland
-NY has the city New York
-- - - - - - - - - - 
-California state is abbreviated CA and has city San Francisco
-Michigan state is abbreviated MI and has city Detroit
-New York state is abbreviated NY and has city New York
-Florida state is abbreviated FL and has city Jacksonville
-Oregon state is abbreviated OR and has city Portland
-- - - - - - - - - - 
-Sorry, no Texas.
-The city for the state 'TX' is: Does Not Exist
+
+
+
+# Results
+
+#  - - - - - - - - - -
+#  NY State has:  New York
+#  OR State has:  Portland
+#  - - - - - - - - - -
+#  Michigan's abbreviation is:  MI
+#  Florida's abbreviation is:  FL
+#  - - - - - - - - - -
+#  Michigan has:  Detroit
+#  Florida has:  Jacksonville
+#  - - - - - - - - - -
+#  California is abbreviated CA
+#  Michigan is abbreviated MI
+#  New York is abbreviated NY
+#  Florida is abbreviated FL
+#  Oregon is abbreviated OR
+#  - - - - - - - - - -
+#  FL has the city Jacksonville
+#  CA has the city San Francisco
+#  MI has the city Detroit
+#  OR has the city Portland
+#  NY has the city New York
+#  - - - - - - - - - -
+#  California state is abbreviated CA and has city San Francisco
+#  Michigan state is abbreviated MI and has city Detroit
+#  New York state is abbreviated NY and has city New York
+#  Florida state is abbreviated FL and has city Jacksonville
+#  Oregon state is abbreviated OR and has city Portland
+#  - - - - - - - - - -
+#  Sorry, no Texas.
+#  The city for the state 'TX' is: Does Not Exist
